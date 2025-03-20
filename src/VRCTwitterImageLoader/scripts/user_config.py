@@ -8,7 +8,7 @@ class VTILSettings(BaseSettings):
     MAX_RESULTS: int = 10  # URLを取得する最大数(無料プランは10から50)
 
     # 画像配信フローの設定値
-    IMAGE_NUM: int = 10  # 配信画像枚数
+    IMAGE_NUM: int = 1  # 配信画像枚数
     IS_RANDOM: bool = (
         False  # リストからランダムで投稿を選ぶ(True)か新着順に選ぶ(False)か
     )
